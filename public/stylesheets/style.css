@@ -1,8 +1,81 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+* {
+  font-family: 'Montserrat', sans-serif;
+  color:#5e6263;
+  font-weight: bold;
 }
 
-a {
-  color: #00B7FF;
+body {
+  padding: 50px;
+  background-image: linear-gradient(135deg, #ffaf19, #fffb1c);
 }
+
+  /*defines Nav Bar background and text */
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+  }
+
+  li {
+    float: right; 
+  } 
+
+  li a {
+    display: block;
+    color: 5e6263;
+    text-align: left;
+    padding: 1% 4%;
+    text-decoration: none;
+  }
+
+  .paragraph1 {
+    border-radius: 50px ;
+    border-style:solid;
+    border-color:#423e3e  ;
+    padding: 0.4em;
+    width: 8%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .paragraph2 {
+    border-radius: 50px;
+    border-style:solid;
+    border-color:#423e3e;
+    padding: 0.4em;
+    width: 8%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*defines positioning of Book Bay logo */
+  #logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: auto;
+  }
+
+  /*defines positioning of user account icon */
+  #icon {
+    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2.8%;
+  }
+
+  /*defines border for search bar*/
+  .paragraph3 {
+    border-radius: 50px;
+    border-style:solid;
+    border-color:#423e3e;
+    padding: 1em;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
