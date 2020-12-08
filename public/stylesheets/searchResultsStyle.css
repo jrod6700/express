@@ -1,0 +1,52 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  font-weight: bold;
+}
+
+body {
+  padding: 50px;
+  background-image: linear-gradient(135deg, #ffaf19, #fffb1c);
+}
+
+  /*defines positioning of Book Bay logo */
+  #logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6%;
+    height: auto;
+  }
+
+  #p1 {
+    text-align: center;
+  }
+
+  #p2 {
+    text-align: center;
+  }
+
+  /*Defines Grid Container */
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #5e6263;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: #5e6263;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;  
+  }
+
+  ul {
+    list-style-type: none;
+    float: left;
+    font-size: 60%;
+  }
+
+  img {
+    float: left;
+  }

@@ -1,0 +1,86 @@
+<html>
+
+<head>
+  <title>checkOut</title>
+  <link rel="stylesheet" href="stylesheets/checkOutStyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  <script src="javascripts/checkOutScript.js"></script>
+</head>
+
+  <!--Defines Top Logo-->
+  <br>
+  <img src="https://i.imgur.com/nSiaLTk.png" alt="Book Bay Logo" id="logo" class="responsive">
+  <p id="p1">Items in Cart:</p>
+
+<!--Defines Table Object for Items in Cart-->
+<body>
+  <table class="center">
+    <tr>
+      <td>Title: </td>
+      <td>Subtotal: </td>
+      <td>Shipping: </td>
+      <td>Total: </td>
+    </tr>
+    <tr>
+      <td><a href = "listingPage.html">The Great Gatsby</a></td>
+      <td>7.99&euro;</td>
+      <td>Free</td>
+      <td>7.99&euro;</td>
+    </tr>
+  </table>
+  <br>
+
+  <p id="p1">Payment Information:</p>
+
+  <!--Defines Table Object for Payment Information-->
+  <table class="center">
+    <tr>
+      <td><input type="text" name="firstname" title="First Name"
+         value="Card Number:" onfocus="inputFocus(this)" onblur="inputBlur(this)"></td>
+      <td><input type="text" name="firstname" title="First Name"
+         value="Expiration Date:" onfocus="inputFocus(this)" onblur="inputBlur(this)"></td>
+      <td><input type="text" name="firstname" title="First Name"
+         value="CVV:" onfocus="inputFocus(this)" onblur="inputBlur(this)"></td>
+      <td><input type="text" name="firstname" title="First Name"
+         value="Name on Card:" onfocus="inputFocus(this)" onblur="inputBlur(this)"></td>
+    </tr>
+  </table>
+  <br>
+
+  <p id="p1">Shipping Address:</p>
+
+  <!--Defines Table Object for Shipping Information-->
+  <table class="center">
+    <tr>
+      <td><input type="text" name="firstname" title="First Name"
+        value="Address:" onfocus="inputFocus(this)" onblur="inputBlur(this)"></td>
+      <td><input type="text" name="firstname" title="First Name"
+        value="Apartment #:" onfocus="inputFocus(this)" onblur="inputBlur(this)"></td>
+      <td><input type="text" name="firstname" title="First Name"
+        value="City:" onfocus="inputFocus(this)" onblur="inputBlur(this)"></td>
+      <td><input type="text" name="firstname" title="First Name"
+        value="State:" onfocus="inputFocus(this)" onblur="inputBlur(this)"></td>
+      <td><input type="text" name="firstname" title="First Name"
+        value="ZIP Code:" onfocus="inputFocus(this)" onblur="inputBlur(this)"></td>
+    </tr>
+  </table>
+  <br>
+
+  <form action="/action_page.php">
+    <input type="checkbox" id="input2" name="input2" value="check1">
+    <label for="vehicle1">Save my card information for future purchases</label><br>
+    <input type="checkbox" id="input2" name="input2" value="check2">
+    <label for="vehicle1">Save my address information</label><br>
+    <script type="text/javascript">
+      function submitform()
+      {
+        document.postForm.submit();
+      }
+      </script>
+  </form>    
+
+<p id="p2"><a href="orderConfirmation.html"><b>Place Order...</a></p>
+
+</body> 
+
+</html>
