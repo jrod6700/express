@@ -4,6 +4,7 @@
   <title>homePage</title>
   <link rel="stylesheet" href="stylesheets/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  <script src="javascripts/scripts.js"></script>
 </head>
 
 <body>
@@ -22,9 +23,17 @@
   <!--Defines search area-->
 
   <img src="https://i.imgur.com/nSiaLTk.png" alt="Book Bay Logo" id="logo" class="responsive">
-  <p class="paragraph3"><a href = "searchResults.html">What book do you need...?</a>
+  <!-- <p class="paragraph3"><a href = "searchResults.html">What book do you need...?</a>
   <img src="https://i.imgur.com/GI4mDpJ.png" alt="Search Icon" id="icon" class="responsive"></p>
-    
+  -->
+  
+  <input id="searchBar" onkeyup="search_book()" type="text" name="search" placeholder="What book do you need...?">
+
+  <ol id="bookList" style="display:none">
+    <li class="books">The Great Gatsby</li>
+    <li class="books">The Hunger Games</li>
+    <li class="books">Moby Dick</li>
+  </ol>
 </body> 
 
 </html>

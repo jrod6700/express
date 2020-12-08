@@ -1,6 +1,6 @@
 * {
-  font-family: 'Montserrat', sans-serif;
-  color:#5e6263;
+  font-family: "Montserrat", sans-serif;
+  color: #5e6263;
   font-weight: bold;
 }
 
@@ -9,68 +9,68 @@ body {
   background-image: linear-gradient(135deg, #ffaf19, #fffb1c);
 }
 
-  /*defines Nav Bar background and text */
+/*defines Nav Bar background and text */
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: none;
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
 
-  li {
-    float: right; 
-  } 
+li {
+  float: right;
+}
 
-  li a {
-    display: block;
-    color: 5e6263;
-    text-align: left;
-    padding: 1% 4%;
-    text-decoration: none;
-  }
+li a {
+  display: block;
+  color: 5e6263;
+  text-align: left;
+  padding: 1% 4%;
+  text-decoration: none;
+}
 
-  .paragraph1 {
-    border-radius: 50px ;
-    border-style:solid;
-    border-color:#423e3e  ;
-    padding: 0.4em;
-    width: 8%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.paragraph1 {
+  border-radius: 50px;
+  border-style: solid;
+  border-color: #423e3e;
+  padding: 0.4em;
+  width: 8%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .paragraph2 {
-    border-radius: 50px;
-    border-style:solid;
-    border-color:#423e3e;
-    padding: 0.4em;
-    width: 8%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.paragraph2 {
+  border-radius: 50px;
+  border-style: solid;
+  border-color: #423e3e;
+  padding: 0.4em;
+  width: 8%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  /*defines positioning of Book Bay logo */
-  #logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%;
-    height: auto;
-  }
+/*defines positioning of Book Bay logo */
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height: auto;
+}
 
-  /*defines positioning of user account icon */
-  #icon {
-    float: right;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 2.8%;
-  }
+/*defines positioning of user account icon */
+#icon {
+  float: right;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 2.8%;
+}
 
-  /*defines border for search bar*/
-  .paragraph3 {
+/*defines border for search bar*/
+/* .paragraph3 {
     border-radius: 50px;
     border-style:solid;
     border-color:#423e3e;
@@ -78,4 +78,29 @@ body {
     width: 30%;
     margin-left: auto;
     margin-right: auto;
-  }
+  } */
+
+#searchBar {
+  margin-left: 35%;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+input[type="text"] {
+  width: 30%;
+  /* -webkit-transition: width .15s ease-in-out;
+    transition: width .15s ease-in-out; */
+}
+
+input[type="text"]:focus {
+  width: 30%;
+}
+
+#list {
+  font-size: 1.5em;
+  margin-left: 90px;
+}
+
+.books {
+  display: list-item;
+}

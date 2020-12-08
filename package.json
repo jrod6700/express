@@ -8,7 +8,20 @@
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
-    "express": "~4.16.1",
+    "express": "^4.16.4",
     "morgan": "~1.9.1"
-  }
+  },
+  "description": "1. HOW TO START THE APPLICATION\r     -The application has a simple flow, with pages directly flowing to one another, though the command npm start command should work. \r     -Details are as follows:\r         1. Index page acts as the home page and leads to the search page and personal user account pages\r         2. The User Account page lets users view their own account information and check out directly.\r         3. The Search page provides interative listings as well as options to view an example Listings page and Seller Account page\r         4. The Seller Account page provides an interactive view of seller links and options to return to the Listing/Search pages.\r         5. The Listing page lets users directly check out the listing as well as follow a link to the Seller's Account page.\r         6. The Checkout page allows users to view their order, input payment and shipping address information, and place the order.\r         7. The Confirmation page simply gives a review of the purchased order and allows users to return to the home page.",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrod6700/express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrod6700/express/issues"
+  },
+  "homepage": "https://github.com/jrod6700/express#readme"
 }

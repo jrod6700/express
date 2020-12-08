@@ -12,7 +12,8 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+//app.use(express.static(path.join(__dirname, 'public'))); THIS LINE WAS MODIFIED TO GET THE CODE BELOW TO INCLUDE HTML
+app.use(express.static(path.join(__dirname, 'public'), {extensions: 'html'}));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
